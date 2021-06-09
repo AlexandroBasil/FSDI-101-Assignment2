@@ -1,0 +1,89 @@
+/*global*/
+*{
+    margin:0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    margin: 20px;
+    line: height 2;
+}
+/*utilities*/
+.center{
+    text-align:center
+}
+.padding{
+    margin: 15px;
+}
+img{
+    max-width: 100%;
+}
+.bold-text{
+    font-weight: 700;
+}
+/* header*/
+.site-header{
+    background-color: rgb(30, 187, 153);
+    color:black;
+    height:20vh;
+}
+.site-header h1{
+    color:black;
+    font: size 60px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.site-header h2{
+    color:white;
+    font: size 40px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+}
+
+.icons-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.icon-container i{
+    color: black;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 30px;
+}
+.menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 55px;
+}
+.menu a:hover{
+    color: white;
+    background-color: coral;
+    text-decoration: underline;
+}
+
+/*main*/
+.img-container{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.img-container img{
+    border-radius: 50%;
+    border: 5px solid rgba(29, 0, 196, 0.295);
+    padding: 5px;
+}
